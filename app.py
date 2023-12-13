@@ -18,6 +18,7 @@ from nltk.stem import PorterStemmer, WordNetLemmatizer
 from sklearn.feature_extraction.text import CountVectorizer
 
 nltk.download('stopwords')
+nltk.download('punkt')
 stopwords = set(nltk.corpus.stopwords.words('english'))
 def stopWords_removal(text):
     words = word_tokenize(text)
