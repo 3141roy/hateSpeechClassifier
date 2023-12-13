@@ -1,0 +1,7 @@
+tensorflow
+pickle
+streamlit
+contractions
+nltk
+re
+scikit-learn
