@@ -2,5 +2,4 @@ tensorflow == 2.15.0
 streamlit
 contractions
 nltk
-re
 scikit-learn
