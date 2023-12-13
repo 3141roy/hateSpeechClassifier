@@ -83,7 +83,7 @@ def main():
     max_length = 100
 
     st.write("Enter text for classification:")
-    user_input = st.text_area("Input Text", "Type your text here...")
+    user_input = st.text_area("Input Text", "")
 
     if st.button("Classify"):
         if user_input.strip() == "":
