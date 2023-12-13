@@ -1,5 +1,4 @@
-tensorflow
-pickle
+tensorflow == 2.15.0
 streamlit
 contractions
 nltk
