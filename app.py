@@ -77,7 +77,7 @@ def classify_text(text, model, tokenizer, max_length):
     return predictions.flatten().tolist()
 
 def main():
-    st.title("Text Classification App")
+    st.title("VirtuShield - Hate Speech Classifier")
 
     model = load_model()
     tokenizer = Tokenizer()
